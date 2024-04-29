@@ -105,7 +105,7 @@ install(
         COMPONENT
         Devel
 )
-install(FILES conf/version DESTINATION /etc/LingmoUI/ COMPONENT Runtime)
+install(FILES conf/version DESTINATION ${CMAKE_INSTALL_PREFIX}/etc/LingmoUI/ COMPONENT Runtime)
 
 # install(FILES src/Windows.tar.xz DESTINATION ~/.update/ COMPONENT Runtime)
 
